@@ -1,0 +1,21 @@
+Directory--> the folder where all the webpage files are stored.
+
+
+webpage--> a single document on the internet. ex: index.html, about.html.
+website--> collection of webpages under one domain. like a book.
+
+techs that need to be known to create webpages are HTML, CSS, JS.
+
+HTML --> Hyper Text Markup Language.
+Hyper Text---> The text that takes you to another destination.
+Markup language. >  we would use markups like tags to structure the contents in a webpage.
+
+explanation:
+------------
+HTML is the basic building block of all webpages. It tells the browser what to display and how to structure the contents<></>
+
+extenstion---> .html (index)
+
+tags--> <>(open) </>(close)
+
+boilerplate---> html---> head(metaData), body(contents)
