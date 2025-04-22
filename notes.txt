@@ -16,6 +16,53 @@ HTML is the basic building block of all webpages. It tells the browser what to d
 
 extenstion---> .html (index)
 
-tags--> <>(open) </>(close)
+tags--> <>(open) </>(close). normal tags(<></>), self closing(<>)
 
-boilerplate---> html---> head(metaData), body(contents)
+boilerplate---> Basic structure of HTML html---> head(metaData), body(contents)
+
+Attribute
+--------------
+additional information about the element.
+syntax: <p name1="value" name2="value"></p>
+
+Basic Tags in HTML 
+--------------------
+Heading Tags---> h1,h2,h3,h4,h5,h6
+paragraph---> p
+divide---> div--> to create a box and wrap contents in it.
+span---> to add property to particular word or sentence.
+
+br and hr(self closing tags)---> br(breaking)---> hr(Horizontal Line)
+
+Anchor---> a (create links). href---> link. target="_blank"(new tab)
+
+Typpography Tags 
+--------------------
+
+bold---> b
+strong--> strong
+del--> deleted text
+sup---> sup (2 power 2)
+mark---> highlighting
+ins---> ins(underlining)
+
+Ordered List  (Number as a prefix)
+-------------
+parent---> ol
+list elements---> li
+
+Unordered List  (Symbols as a prefix)
+-------------
+parent---> ul
+list elements---> li
+
+Image tag 
+-----------
+
+img(self closing tag). Attributes--> src, alt(alternative text)
+
+File path:
+-----------
+parent---> ../
+child---> /
+sibling--> ./
