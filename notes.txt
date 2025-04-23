@@ -66,3 +66,34 @@ File path:
 parent---> ../
 child---> /
 sibling--> ./
+
+
+
+Table border="1"
+---------
+
+table-->thead,tbody
+to create row---> tr 
+to add data--> th, td
+
+
+Form 
+---------
+
+form--> multiple inputs
+input(Self Closing Tag)---> type
+
+Attributes: type, name, placeholder, id, required, value(radio)
+
+Types 
+-----
+1)text
+2)number
+3)password
+4)date
+5)email
+6)time
+7)radio
+8)checkbox
+9) reset
+10)submit
