@@ -76,6 +76,8 @@ table-->thead,tbody
 to create row---> tr 
 to add data--> th, td
 
+task--> s.no, name, role, email, native, isMarried. (10 details)
+
 
 Form 
 ---------
