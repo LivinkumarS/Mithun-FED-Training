@@ -16,6 +16,8 @@ HTML is the basic building block of all webpages. It tells the browser what to d
 
 extenstion---> .html (index)
 
+comment--->  <!-- code  --> (ctrl + /)
+
 tags--> <>(open) </>(close). normal tags(<></>), self closing(<>)
 
 boilerplate---> Basic structure of HTML html---> head(metaData), body(contents)
@@ -99,3 +101,34 @@ Types
 8)checkbox
 9) reset
 10)submit
+
+
+
+CSS
+----
+
+Cascading Style Sheet.
+
+used to style the elements in HTML.
+
+syntax:
+-------
+
+background-color, green
+tagname-->h1,div
+
+selector{
+    property1: value; (ex: background-color: green;)
+    property2: value;
+    property3: value;
+    .
+    .
+    .
+}
+
+Ways to insert CSS into HTML
+------------------------------
+
+internal---> style > head
+external---> create css file outside the HTML and link it.
+inline
