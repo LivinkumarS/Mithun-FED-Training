@@ -142,3 +142,6 @@ id name selector--> selecting tag using it's Id name."#" as a pefix. (assign id 
 class name selector---> selecting multiple tags using the common class name. "." as prefix. class name can be repeated. a single tag can hold more than one class name.
 
 Universal Selector---> Common selector (*). it will select each and every tag.
+
+
+ * < tag < class < id 
