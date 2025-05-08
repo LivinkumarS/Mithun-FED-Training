@@ -144,4 +144,33 @@ class name selector---> selecting multiple tags using the common class name. "."
 Universal Selector---> Common selector (*). it will select each and every tag.
 
 
- * < tag < class < id 
+ * < tag < class(.) < id(#)
+
+ CSS Units
+ ---------------
+
+ static Units
+ -------------
+ px----> 0.26mm
+
+
+ Dynamic units 
+ -------------
+
+
+Basic Properties of CSS.
+___________________________
+
+background-color: value;
+
+color values---> 1)name of the color. 2) RGB(num1, num2, num3(0-255)). hex codes(#3-6 digits)
+
+
+Text Properties 
+-------------------
+color---> changes the text color.
+font-size---> 1)key words. 2)numeric values with units.
+font-weight----> thickness.1) key words. pre  defined numbers
+font-family----> text shapes and texture.(importing fonts from other sites.)
+font-style---> italic, normal
+text-align---> start, center, end, justify

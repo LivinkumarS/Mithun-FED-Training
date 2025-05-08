@@ -1,4 +1,17 @@
 .para {
-  background-color: red;
+  background-color: #5ed39c7c;
+  color: rgb(33, 36, 204);
 }
 
+#head {
+  font-size: medium;
+}
+
+.para1{
+  font-weight: 900;
+  font-size: 50px;
+
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style: italic;
+  text-align: justify;
+}
