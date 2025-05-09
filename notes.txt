@@ -152,7 +152,9 @@ Universal Selector---> Common selector (*). it will select each and every tag.
  static Units
  -------------
  px----> 0.26mm
-
+ pt----> 0.33mm
+ cm---->10mm
+ in
 
  Dynamic units 
  -------------
@@ -174,3 +176,26 @@ font-weight----> thickness.1) key words. pre  defined numbers
 font-family----> text shapes and texture.(importing fonts from other sites.)
 font-style---> italic, normal
 text-align---> start, center, end, justify
+
+
+Developer tools---> ctrl + shift + i
+
+
+Box Modelling
+---------------
+In HTML each and every elements will be considered as rectangular box. And using some CSS properties we can style those boxes. 
+
+Width and Height(content width) ---> width--> horizontal size. height--->
+
+Padding (inner space) ---> occurs between the content and the outer border
+
+Border---> thin layer of border for the box.
+
+Margin (Outer space) ---> that seperates the other contents from itself.
+
+Box-sizing---> cotent-box, border-box.
+default---> content-box---> box-width--> content-width + padding + border.
+
+border-box---> box-width--> width property value.
+
+bordder-radius---> makes curvy edges.
