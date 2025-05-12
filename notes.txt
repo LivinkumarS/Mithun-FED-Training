@@ -158,7 +158,17 @@ Universal Selector---> Common selector (*). it will select each and every tag.
 
  Dynamic units 
  -------------
+ %----> relative to the parent. (width, height, padding, margin)
+(20/100 * 500). width---> parent width, height---> parent  height, padding----> parent width, margin---> parent width
 
+rem (root em)---> to  =measure font-size(keeping same font size throughout the page). this is  relative to root(html) elements font size(16px)
+ex---> 1rem---> 16px. 2rem---> 32px, 1.5rem---> 24px, 1.8rem-->
+
+vw (viewport width) (width of a container)----> relative to the screen's width
+100vw---> 100% screen
+90vw---> 90% screen
+
+vh (viewport height) (height of a container)--> relative to the screen height
 
 Basic Properties of CSS.
 ___________________________
