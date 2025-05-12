@@ -146,6 +146,28 @@ Universal Selector---> Common selector (*). it will select each and every tag.
 
  * < tag < class(.) < id(#)
 
+ combination of selectors
+ ----------------------------
+
+ descendant selector (" ")---> selects all the matching descendant.
+
+ grandfather-->father-->child-->grandchild-->greatgrandchild
+ selector1 selector2{
+
+ }
+
+
+ direct descendant selector (">") (child selector)---> selects only matching direct children.
+
+ grandfather-->father-->child-->grandchild-->greatgrandchild
+ selector1>selector2{
+
+ }
+
+Pseudo--selector:
+-----------------
+
+
  CSS Units
  ---------------
 

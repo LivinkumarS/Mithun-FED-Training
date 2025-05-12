@@ -4,25 +4,12 @@
   box-sizing: border-box;
 }
 
-div {
-  border: 1px solid black;
-  padding: 10px;
-}
-
-.parent {
-  width: 100vw;
-  background-color: green;
-  height: 80vh;
-  margin:  auto;
-  font-size: 1.8rem; /* 1rem = 16px */
-
-}
-
-/* .child {
-  width: 20%; 20% of the parent (20% of 478px)
-  height: 50%; 50% of the parent (50% of 478px
-  padding: 10%; 10% of the child (10% of 478px
-  margin: 10%; 10% of the child (10% of 478px
-
+/* .parent p{
+  color: aqua;
+  background-color: brown;
 } */
 
+.parent > p {
+  color: aqua;
+  background-color: brown;
+}
