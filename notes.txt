@@ -166,6 +166,25 @@ Universal Selector---> Common selector (*). it will select each and every tag.
 
 Pseudo--selector:
 -----------------
+pseudo selector targets an element based on it's state, position or specific parts.
+
+Pseudo Classes (:)
+--------------------
+ state, position
+1)hover---> it targets an element when the cursor hovers on it
+2)focus---> it is usually used in an input tag.
+3)first-child---> it selects the first child of given selector.
+4)last-child---> it selects the last child of given selector.
+5)nth-child(num)---> selects an element in given position.(odd,even)
+
+Pseudo Elements (::)
+---------------------
+specific parts
+1)first-letter---> selects only the first letter of given selector.
+2)first-line---> selects only the first line of given selector.
+3)before ---> this is used to add content and style that content before the original content of given selector.
+4)after ---> this is used to add content and style that content after the original content of given selector.
+
 
 
  CSS Units
