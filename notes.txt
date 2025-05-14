@@ -250,3 +250,28 @@ default---> content-box---> box-width--> content-width + padding + border.
 border-box---> box-width--> width property value.
 
 bordder-radius---> makes curvy edges.
+
+
+
+
+Positioning
+----------------
+in css, positioning controls  how an elements are placed in the documents flow.
+
+position: ;
+top: ;
+bottom: ;
+left: ;
+right: ;
+
+
+Static (Default) 
+----------------
+Default for all elements.
+positioned based on the normal document flow.
+offset the properties (top,bottom....)
+
+Relative 
+--------
+keeps the element in the normal document flow.
+it allows to shift the element relative to it's original position. (%---> relative to it's parent's size)
