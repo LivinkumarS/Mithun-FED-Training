@@ -9,22 +9,21 @@
   height: 500px;
   border: 1px solid black;
 
-  /* position: static;
-  top: 50px;
-  left: 50px; */
-
-  /* position: relative;
-  left: 50%;
-  left: 500px; */
-
   margin: 30px auto;
 }
 
-.child {
-  width: 100px;
-  height: 100px;
+.parent > div {
+  width: 50%;
+  height: 25%;
   background-color: red;
+}
+
+.child2 {
   position: relative;
-  top: 50%;
+  left: 50%;
+}
+
+.child4 {
+  position: relative;
   left: 50%;
 }
