@@ -274,4 +274,22 @@ offset the properties (top,bottom....)
 Relative 
 --------
 keeps the element in the normal document flow.
-it allows to shift the element relative to it's original position. (%---> relative to it's parent's size)
+it allows to shift the element relative to it's original position. (%---> relative to it's parent's size).
+
+Absolute
+----------
+Removes element from document flow.
+allows to position an element relative to it's nearest positioned ancestor.
+
+NPA---> Nearest positioned(relative, Absolute, fixed) ancestor.
+
+Fixed
+--------
+It will remove the element from document flow.
+relative to html.
+always stays in the position(will not get scrolled).
+
+Sticky
+---------
+It is hybrid of Relative and fixed.
+

@@ -4,7 +4,10 @@
   box-sizing: border-box;
 }
 
+
+
 .parent {
+  position: relative;
   width: 500px;
   height: 500px;
   border: 1px solid black;
@@ -12,18 +15,41 @@
   margin: 30px auto;
 }
 
-.parent > div {
-  width: 50%;
-  height: 25%;
+
+/* parent, body, html */
+/*  */
+/* html */
+
+.child1{
+  position: absolute;
+  top: 0;
+  right: 10px;
+
   background-color: red;
+  width: 100px;
+  height: 100px;
 }
 
-.child2 {
-  position: relative;
-  left: 50%;
+.child2{
+  background-color: blue;
+  width: 200px;
+  height: 200px;
 }
 
-.child4 {
-  position: relative;
-  left: 50%;
+.fixy{
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+.stick{
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+  position: sticky;
+  top: 0px;
+  left: 100px;
 }
