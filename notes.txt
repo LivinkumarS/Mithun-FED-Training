@@ -293,3 +293,35 @@ Sticky
 ---------
 It is hybrid of Relative and fixed.
 
+
+
+Transform Properties
+___________________________
+it is used to apply 2D and 3D transformation effects to elements.
+used to visually manipulate element's size, position and rotation.
+
+syntax 
+---------
+transform: value;
+
+translate. %---> relative to it's own size.
+--------------
+used to move an element.
+transform: translate(value); translateX((+)->right,(-)->left), translateY((+)->bottom,(-)->top), translate(val1,val2)
+
+scale
+------
+transforming size.
+transform: scaleX(), scaleY(), scale().
+1--->100%, 2-->200%.
+
+rotate
+------
+rotation.
+transform((+)--> clock, (-)---> anti clock)
+
+3D rotation
+-----------
+transform: rotateX(), rotateY()
+
+
