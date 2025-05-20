@@ -325,3 +325,28 @@ transform((+)--> clock, (-)---> anti clock)
 transform: rotateX(), rotateY()
 
 
+Display Properties
+--------------------
+Types of elements
+-------------------
+Block---> 
+1)it will take 100% of available width defaultly. 
+2)always starts in a new line.
+3)width and height can be assigned.
+ex: div, section, ul, li, p, h1-h6...etc.
+
+Inline--->
+1)it will not take 100% of available width defaultly. 
+2)keeps continuing in same line.
+3)width and height cannot be assigned.
+ex:span, a...etc
+
+Inline-Block--->
+Hybrid of Inline and block.
+1)it will not take 100% of available width defaultly. 
+2)keeps continuing in same line.
+3)width and height can be assigned.
+ex:img.
+
+
+display: value; block, inline, inline-block, none.
