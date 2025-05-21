@@ -6,37 +6,17 @@
 
 .parent{
   width: 500px;
+  height: 500px;
   border: 1px solid #000000;
   margin: 30px auto;
-
-  /* display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center; */
-
   display: flex;
-  flex-direction: column;
-
-  align-items: stretch;
+  justify-content: center;
+  align-items: center;
 
 }
 
 .child{
   width: 100px;
-}
-
-.child1{
-  background-color: red;
-}
-
-.child2{
-  background-color: green;
-}
-
-.child3{
-  background-color: blue;
-}
-
-.child4{
-  background-color: gold;
+  height: 100px;
+  background-color: aqua;
 }
