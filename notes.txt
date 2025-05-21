@@ -350,3 +350,29 @@ ex:img.
 
 
 display: value; block, inline, inline-block, none.
+
+
+Flex Box 
+----------
+Flexbox is a powerful CSS Layout that makes it easier to design flexible and responsive layout structures.
+
+Flex box setup
+-----------------
+.parent{
+    display: flex;
+}
+
+flex-direction---> row-->Left-Right, column-->Top-Bottom.
+
+Flex Box---> Main axis and Cross Axis.
+
+Row---> x--> main, y--> cross.
+Col---> x--> cross, y--> main.
+
+Main axis Alignment
+--------------------
+justify-content---> flex-start, flex-end, center, space-around, space-between, space-evenly.
+
+Cross axis Alignment 
+----------------------
+align-content--> stretch, flex-start, flex-end, center
