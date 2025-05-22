@@ -389,3 +389,16 @@ shrink(1)-->1,0
 flex 
 ------
 to create ratio on how the space is distributed among items.
+
+
+
+Grid 
+--------
+
+A powerful layout system that allows to design complex, responsive web layouts
+
+display:grid;
+
+grid-template-columns: ;
+grid-template-rows: ;
+grid-auto-rows: ;
