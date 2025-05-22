@@ -375,4 +375,17 @@ justify-content---> flex-start, flex-end, center, space-around, space-between, s
 
 Cross axis Alignment 
 ----------------------
-align-content--> stretch, flex-start, flex-end, center
+align-content--> stretch, flex-start, flex-end, center.
+
+gap---> used to create gap between items.
+
+flex-wrap---> no-wrap, wrap
+
+flex-grow and flex-shrink
+---------------------------
+grow(0)---> 1,0
+shrink(1)-->1,0
+
+flex 
+------
+to create ratio on how the space is distributed among items.
