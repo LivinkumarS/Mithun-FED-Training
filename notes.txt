@@ -402,3 +402,7 @@ display:grid;
 grid-template-columns: ;
 grid-template-rows: ;
 grid-auto-rows: ;
+
+gsp--> common, row-gap and column-gap
+
+Arrange Items---> grid-column, grid-row
