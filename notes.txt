@@ -405,4 +405,33 @@ grid-auto-rows: ;
 
 gsp--> common, row-gap and column-gap
 
-Arrange Items---> grid-column, grid-row
+Arrange Items---> grid-column, grid-row.
+
+
+
+Media queries
+----------------
+
+it is used to optimise the layout of our webpage according to the factors like width, orientation.
+
+syntax 
+--------
+
+@media (condition){
+    div{
+
+    }
+    p{
+
+    }
+    .class{
+
+    }
+}
+
+condition ---> max-width:1000px ---> 1000, 999,......
+          ---> min-width:1000px----> 1000,1001.....
+
+          200px to 300px
+
+AND     -----> condition1 and condition2
